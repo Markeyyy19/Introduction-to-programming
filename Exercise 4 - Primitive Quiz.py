@@ -1,5 +1,6 @@
+# This will keep track of the score 
 score = 0
-
+# This is are the 10 question a user must answer which then the user will be given a point each correct answer
 answer = input("What is the capital of France? Answer: ")
 if answer == "Paris":
     print("Correct!")
@@ -71,3 +72,4 @@ else:
     print("Incorrect!")
     
 print("Your score:", score)
+# This shows the user their total score
